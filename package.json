@@ -3,5 +3,24 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.15.0"
-  }
+  },
+  "scripts": {
+    "start": "node packages/usage/index",
+    "lint": "eslint packages/*/src",
+    "test": "jest",
+    "build:babel": "lerna exec --parallel -- babel src -d lib",
+    "build:webpack": "lerna run build:webpack",
+    "build": "yarn build:babel && build:webpack",
+    "release": "yarn lint && yarn build && lerna publish"
+  },
+  "keywords": [],
+  "author": "Thiago Capelo <thiagokpelo@gmail.com>",
+  "license": "ISC",
+  "workspaces": [
+    "packages/alpha",
+    "packages/beta",
+    "packages/usage",
+    "packages/shared",
+    "packages/devtools"
+  ]
 }

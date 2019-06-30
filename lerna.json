@@ -1,6 +1,8 @@
 {
-  "version": "0.0.1",
-  "npmClient": "npm",
+  "lerna": "3.15.0",
+  "version": "fixed",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
