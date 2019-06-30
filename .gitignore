@@ -1,0 +1,11 @@
+*.debug.js
+**/.cache
+**/.idea
+**/*.log
+**/*.out
+**/*.tmp
+**/node_modules
+**/coverage
+**/package-lock.json
+packages/**/.vscode
+.DS_Store
