@@ -1,4 +1,6 @@
-const alpha = require('alpha')
-const beta = require('beta')
+const alpha = require('@lerna-repo-microfrontend/alpha')
+const beta = require('@lerna-repo-microfrontend/beta')
 
+console.log('-- Usage app --')
 console.log(`${alpha} ${beta}`)
+console.log('------------')

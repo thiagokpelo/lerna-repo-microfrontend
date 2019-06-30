@@ -1,5 +1,5 @@
 {
-  "name": "usage",
+  "name": "@lerna-repo-microfrontend/usage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "alpha": "1.0.0",
-    "beta": "1.0.0",
+    "@lerna-repo-microfrontend/alpha": "1.0.0",
+    "@lerna-repo-microfrontend/beta": "1.0.0",
     "sillyname": "0.0.3"
   },
   "keywords": [],

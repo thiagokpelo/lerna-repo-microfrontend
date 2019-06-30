@@ -1,12 +1,12 @@
 {
-  "name": "root",
+  "name": "lerna-repo-microfrontend",
   "private": true,
   "devDependencies": {
     "lerna": "^3.15.0"
   },
   "scripts": {
     "start": "node packages/usage/index",
-    "lint": "eslint packages/*/src",
+    "lint": "eslint packages/**/*.js -c packages/devtools/dev-config/.eslintrc.json",
     "test": "jest",
     "build:babel": "lerna exec --parallel -- babel src -d lib",
     "build:webpack": "lerna run build:webpack",

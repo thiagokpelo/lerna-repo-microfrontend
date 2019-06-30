@@ -33,7 +33,8 @@
     "editor.tabSize": 2,
     "editor.useTabStops": true,
 		"editor.trimAutoWhitespace": true,
-		"eslint.packageManager": "yarn",
+    "eslint.packageManager": "yarn",
+    "eslint.options": { "configFile": "/Users/thiagokpelo/Documents/lerna-repo/packages/devtools/dev-config/.eslintrc.json" },
 		"search.exclude": {
       "**/node_modules": true,
       "**/bower_components": true,
